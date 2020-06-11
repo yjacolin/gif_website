@@ -10,3 +10,5 @@ github_username: camptocamp
 
 # Build settings
 markdown: kramdown
+
+exclude: ["README.md", vendor]
