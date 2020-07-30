@@ -1,4 +1,5 @@
 <footer class="site-footer">
+  <div class="wrapper"> 
     <h2 class="footer-heading">{{ site.title }}</h2>
 
     <div class="footer-col-wrapper">
@@ -12,18 +13,23 @@
   <div class="wrapper">
      <h2 class="footer-heading">Plan du site</h2>
      <ul>
-         <li><a href="/">Accueil</a></li>
-         <li><a href="/features">Features</a></li>
-         <li><a href="/documentation">documentation</a></li>
-         <li><a href="/screenshots">Screenshots</a></li>
-         <li><a href="/sevices">Services</a></li>
-         <li><a href="/contact">Contact</a></li>
+         <li><a href="{{ site.url }}/">Accueil</a></li>
+         <li><a href="{{ site.url }}/features">Features</a></li>
+         <li><a href="{{ site.url }}/documentation">documentation</a></li>
+         <li><a href="{{ site.url }}/screenshots">Screenshots</a></li>
+         <li><a href="{{ site.url }}/services">Services</a></li>
+         <li><a href="{{ site.url }}#contact">Contact</a></li>
      </ul>
   </div>
 
   <div class="wrapper" id="icons">
-      <a href="{{ site.twiter_username }}"><img src="../img/icones/photo-facebook-logo-png-hd-25.png" alt="logo facebook" title="Facebook" /></a>
-      <a href="/contact#contact"><img src="../img/icones/Sve5Hh-send-email-button-clipart-hd.png"></a>
+      <div>
+         <span class="icon icon-twitter pr-1"></span>
+         <a href="{{ site.twiter_username }}" class="text-gray-500" target="_blank">
+             <span class="d-none d-md-inline small">Twitter</span>
+         </a>
+      </div>
+      <a href="{{ site.url }}#contact">Contact</a>
   </div>
   <hr style="float:none;clear:both;"/>
 </footer>
