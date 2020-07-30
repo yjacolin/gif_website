@@ -109,7 +109,8 @@ aside {
         }
     }
     @media (min-width: 768px) {
-        background-color: transparent;
+        //background-color: transparent;
+        background-color: rgba(white, .3);
         border-color: rgba(white, .3);
         .navbar-header .navbar-brand {
             color: rgba(white, .7);
@@ -120,9 +121,11 @@ aside {
         }
         .nav > li > a,
         .nav > li > a:focus {
-            color: rgba(white, .7);
+            //color: rgba(white, .7);
+            color: rgba(black, .7);
             &:hover {
-                color: white;
+                //color: white;
+                color: $theme-primary;
             }
         }
         &.affix {
@@ -166,7 +169,8 @@ header {
         .header-content-inner {
             h1 {
                 font-weight: 700;
-                text-transform: uppercase;
+                //text-transform: uppercase;
+                color: rgba(black, .7);
                 margin-top: 0;
                 margin-bottom: 0;
             }
@@ -175,7 +179,8 @@ header {
             }
             p {
                 font-weight: 300;
-                color: rgba(white, .7);
+                //color: rgba(white, .7);
+                color: rgba(black, .7);
                 font-size: 16px;
                 margin-bottom: 50px;
             }
