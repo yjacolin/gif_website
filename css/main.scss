@@ -50,7 +50,8 @@ img {
   max-width: 100%;
 }
 .site-footer {
-    background-color: #615c5a;
+    //background-color: #615c5a;
+    background-color: #333;
     color: white;
     padding: 0 10%;
 }
@@ -91,8 +92,26 @@ div .icon {
     -moz-osx-font-smoothing: grayscale;
 }
 
+
+a .icon::before {
+    display: inline-block;
+}
+
 #icons,.wrapper div .icon {
     font-size: 15px;
 }
 
+#icons,.wrapper div.align-items-center {
+    -webkit-box-align: center !important;
+    align-items: center !important;
+}
 
+#icons, .wrapper div.d-flex {
+    display: -webkit-box !important;
+    display: flex !important;
+}
+
+#icons,.wrapper div.plr-3 {
+    padding-left: .75rem !important;
+    padding-right: .75rem !important;
+}
