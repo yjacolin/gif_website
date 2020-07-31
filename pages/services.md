@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Services 
+class: services
 permalink: /services/
 ---
 # Services

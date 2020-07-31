@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Features 
+class: features
 permalink: /features/
 ---
 # Features
