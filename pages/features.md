@@ -8,7 +8,17 @@ permalink: /features/
 
 ## Open source Licence
 
-GetItFixed! is Open Source, under Free BSSD licence.
+GetItFixed! is an Open Source project, under Free BSD licence. You can deploy it on your own or ask us to help you.
+
+GetItfixed! allow an user to localize an observation and send it to a central database.
+
+## Main features
+
+User can create easily an observation without create an account. However, observation's owner still have access to the observation via an unique URL (send automaticly by email). The observation can be catogarized in two groups. This is customizable by the administrator.
+
+Observation Manager can validate, closed, answer to the owner to get more information on the observation.
+
+Managers have their own administration console.
 
 ## Customizable
 
